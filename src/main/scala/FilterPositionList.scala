@@ -20,4 +20,5 @@ scala> (1 to 1000000000).view.filter(_ % 2 == 0).take(10).toList
 res2: List[Int] = List(2, 4, 6, 8, 10, 12, 14, 16, 18, 20)
 
 as "view" produces a lazy collection now it will not perform filter operation on every element of collection
+check
  */
